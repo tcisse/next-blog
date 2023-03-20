@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 export default function Navbar() {
   return (
-    <div className="flex justify-between w-full px-10 items-center pt-2 bg-[#f4f4f4] pb-5">
+    <div className="flex md:flex-row flex-col justify-between w-full px-10 items-center pt-2 bg-[#f4f4f4] pb-5">
       <div className="text-md">
         <span>Je suis Anna Franco</span>
         <p className="text-gray-500">
