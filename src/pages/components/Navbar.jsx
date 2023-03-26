@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 export default function Navbar() {
   return (
-    <div className="flex md:flex-row flex-col justify-between w-full px-20 items-center pt-6 bg-[#f4f4f4] pb-5">
+    <div className="flex md:flex-row flex-col justify-between w-full md:px-40 items-center pt-6 bg-[#f4f4f4] pb-5">
       <div className="text-md">Logo</div>
       <div className="flex gap-5 text-gray-600 md:mt-0 mt-5">
         <div className="space-x-5 text-xl">
