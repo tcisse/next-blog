@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="w-full h-screen bg-[#f4f4f4]">
+    <div className="w-full bg-[#f4f4f4]">
       <div className="container max-w-lg px-4 py-32 mx-auto mt-px text-left md:max-w-none md:text-center">
         <h1 className="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-900 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
           <span class="inline md:block">Start Crafting Your</span>{" "}
