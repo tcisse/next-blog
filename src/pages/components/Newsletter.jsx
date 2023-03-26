@@ -1,17 +1,18 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 
 export default function Newsletter() {
   return (
-    <div class="bg-white py-16 sm:py-24">
+    <div class="bg-white py-16 md:py-24">
       <div class="mx-auto max-w-7xl px-6 md:px-8">
         <div class="relative isolate flex flex-col gap-10 overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:flex-row xl:items-center xl:py-32">
           <h2 class="max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl xl:max-w-none xl:flex-auto">
-            Get notified when we’re launching.
+            Soyez informé de notre lorsqu'on publie un article.
           </h2>
           <form class="w-full max-w-md">
             <div class="flex gap-x-4">
               <label for="email-address" class="sr-only">
-                Email address
+                Entrer votre email
               </label>
               <input
                 id="email-address"
@@ -26,13 +27,13 @@ export default function Newsletter() {
                 type="submit"
                 class="flex-none rounded-md bg-white py-2.5 px-3.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                Notify me
+                Me notifier
               </button>
             </div>
             <p class="mt-4 text-sm leading-6 text-gray-300">
-              We care about your data. Read our{" "}
+              Nous nous soucions de vos données. Lisez notre{" "}
               <a href="#" class="font-semibold text-white">
-                privacy&nbsp;policy
+                politique de confidentialité.
               </a>
               .
             </p>
