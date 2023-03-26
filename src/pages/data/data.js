@@ -1,4 +1,4 @@
-export default articleCard = [
+export const articleCard = [
   {
     id: "1",
     publication_date: "Mar 16, 2020",
