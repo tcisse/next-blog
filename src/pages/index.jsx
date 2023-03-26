@@ -10,7 +10,7 @@ export default function index() {
       <Navbar />
       <Hero />
       <ArticleCard />
-      {/* <Newsletter /> */}
+      <Newsletter />
     </div>
   );
 }
