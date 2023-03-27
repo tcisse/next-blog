@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ArticleCard from "./components/ArticleCard";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 export default function index() {
   return (
@@ -11,6 +12,7 @@ export default function index() {
       <Hero />
       <ArticleCard />
       <Newsletter />
+      <Footer />
     </div>
   );
 }
