@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { articleCard } from "../data/data.js";
+import Link from "next/link";
 
 export default function ArticleCard() {
   const [article, setArticle] = useState(articleCard);
@@ -55,11 +56,11 @@ export default function ArticleCard() {
                 </div>
               </div>
               <h3 className="mt-3 text-lg font-semibold leading-6 text-white">
-                <a href="#">
+                <Link href="/blog">
                   {/* <span className="absolute inset-0">
                 </span> */}
                   {item.article_title}
-                </a>
+                </Link>
               </h3>
             </article>
           ))}
