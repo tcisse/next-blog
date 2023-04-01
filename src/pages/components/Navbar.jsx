@@ -11,7 +11,7 @@ export default function Navbar() {
     <div className="flex md:flex-row flex-col justify-between w-full md:px-40 items-center pt-6 bg-[#f4f4f4] pb-5">
       <div className="text-md">Logo</div>
       <div className="flex gap-5 text-gray-600 md:mt-0 mt-5">
-        <div className="space-x-5 text-xl">
+        <div className="space-x-5 text-xl text-semibold">
           <Link className="hover:underline hover:text-fuchsia-500" href="/">
             Acceuil
           </Link>
@@ -22,10 +22,16 @@ export default function Navbar() {
             Contact
           </Link>
         </div>
-        <div className="flex items-center gap-5">
-          <AiOutlineTwitter size={25} />
-          <AiOutlineLinkedin size={25} />
-          <AiOutlineFacebook size={25} />
+        <div className="flex items-center gap-5 cursor-pointer">
+          <Link href="">
+            <AiOutlineTwitter size={25} />
+          </Link>
+          <Link href="">
+            <AiOutlineLinkedin size={25} />
+          </Link>
+          <Link href="">
+            <AiOutlineFacebook size={25} />
+          </Link>
         </div>
       </div>
     </div>
